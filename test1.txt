@@ -1,4 +1,5 @@
 Tjhis is my tst1 file
 Second line added for new commit
 creating new conclict
-This my 4th line from Sajjad login
+This is my 4th line from ndbranch
+This my 5th line from Sajjad login
