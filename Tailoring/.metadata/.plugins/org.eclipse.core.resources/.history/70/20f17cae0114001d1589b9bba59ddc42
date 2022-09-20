@@ -1,0 +1,11 @@
+package com.project.tailor.measurement;
+
+public interface IMeasurement {
+	void print1();
+}
+
+class App implements IMeasurement{
+	
+	public object 
+	
+}

@@ -1,0 +1,31 @@
+package com.project.tailor.measurement;
+
+
+public interface IPant {
+	void print1();
+
+}
+class App implements IPant{
+	
+	public Object waist;
+	public Object rise;
+	public Object thigh;
+	public Object insideleg;
+	public Object pocket;
+	public void print1() {
+	System.out.format("FullPantMeasurement: %s, %s, %s, %s, %s\n", this.waist , this.rise , this.thigh , this.insideleg , this.pocket);
+	}
+
+	public Object waist1;
+	public Object rise1;
+	public Object thigh1;
+	public Object cuff;
+	public Object pocket1;
+	public void print() {
+	System.out.format("halfPantMeasurement: %s, %s, %s, %s, %s\n", this.waist1 , this.rise1 , this.thigh1 , this.cuff , this.pocket);
+	} public void main(String args[]) {
+	    App obj = new App();
+	    obj.print1();
+	    obj.print();
+	}
+}

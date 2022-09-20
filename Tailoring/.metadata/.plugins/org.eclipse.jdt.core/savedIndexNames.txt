@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+E:\Development\Tailoring\.metadata\.plugins\org.eclipse.jdt.core
+761981977.index
+859656055.index
+2649554540.index
+4070349408.index
+1989179813.index
+1176753622.index
+1553547322.index
+2654188042.index
+4182732156.index
+26807468.index
+2302953937.index
+55864188.index
+434501075.index
+672940151.index
+2763918048.index
+3209555907.index
+2666797127.index
+1105236586.index
+2170138973.index

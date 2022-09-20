@@ -1,0 +1,28 @@
+package com.project.tailor.test;
+
+public class ItemTest {
+	
+	
+	public IMeasurements  test(IMeasurements im) {
+		return im;
+	}
+	
+	public HalfPant test1(HalfPant fp) {
+		return fp;
+	}
+	
+	public static void main(String[] args) {
+		ItemTest it = new ItemTest();
+		FullPant fp = new FullPant();
+		FullPant fp2 = new FullPant();
+		HalfPant hp = new HalfPant();
+		NightPant np = new NightPant();
+		InnerPant ip = new InnerPant();
+		
+		FullPant castPant = (InnerPant) it.test(ip);
+		castPant.halfPant();
+//		it.test1(fp);
+		
+	}
+
+}

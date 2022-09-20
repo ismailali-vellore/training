@@ -1,0 +1,69 @@
+package com.project.tailor.measurement;
+
+public class HalfShirt {
+	int frontlength;
+	int chestwidth;
+	float shoulderwidth;
+	boolean collar;
+	float collur;
+	boolean canvas;
+	int pocket;
+	boolean innerpocket;
+	
+public HalfShirt() {
+		
+	}
+	public void setFLen(int frontlen) {
+		this.frontlength = frontlen;
+	}
+	public void setCWid(int chestwid) {
+		this.chestwidth = chestwid;
+	}
+	public void setSWid(float shoulderwid) {
+		this.shoulderwidth = shoulderwid;
+	}
+	
+	public void setCo(boolean collar) {
+		this.collar = collar;
+	}
+	public void setco(float collur) {
+		this.collur = collur;
+	}
+	public void setcan(boolean canvas) {
+		this.canvas = canvas;
+	}
+	public void setpoc(int pocket) {
+		this.pocket = pocket;
+	}
+	public void setIpoc(boolean innerpoc) {
+		this.innerpocket = innerpoc;
+	}
+	public void getFlen() {
+		System.out.println("Shirt length:" + this.frontlength);
+	}
+	public void getCwid() {
+		System.out.println("Chest width:" + this.chestwidth);
+	}
+	public void getSwid() {
+		System.out.println("Shoulder width:" + this.shoulderwidth);
+	}
+	public void getCo() {
+		System.out.println("collar:" + this.collar);
+	}
+	public void getco() {
+		System.out.println("collur size:" + this.collur);
+	}
+	public void getcan() {
+		System.out.println("canvas:" + this.canvas);
+	}
+	public void getpoc() {
+		System.out.println("pocket size:" + this.pocket);
+	}
+    public void getIpoc() {
+    	System.out.println("Innerpocket:" + this.innerpocket);
+    }
+
+
+}
+
+	

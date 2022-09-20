@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.project.tailor.customer.IAddress"/>
+<fullyQualifiedTypeName name="javax.xml.bind.helpers.DefaultValidationEventHandler"/>
+<fullyQualifiedTypeName name="com.project.tailor.customer.CustomerAddress"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.project.tailor.order.Order"/>
+<fullyQualifiedTypeName name="com.project.tailor.customer.DeliveryAddress"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="com.project.tailor.order.Item"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.ItemTest"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.FullPant"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.NightPant"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.HalfPant"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.InnerPant"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.IMeasurements"/>
+<fullyQualifiedTypeName name="com.project.tailor.test.ABClass"/>
+</qualifiedTypeNameHistroy>

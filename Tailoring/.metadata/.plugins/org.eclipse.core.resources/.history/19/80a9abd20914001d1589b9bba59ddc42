@@ -1,0 +1,25 @@
+package com.project.tailor.measurement;
+
+public class Measurement {
+	FullPant Measurement;
+	HalfPant HMeasurement;
+	FullShirt FMeasurement;
+	HalfShirt HSMeasurement;
+	
+	public Measurement() {
+		
+	}
+	public void setFPMeasurement(FullPant FP_Measurement) {
+		this.Measurement = FP_Measurement;
+	
+	}
+	public void setHPMeasurement(HalfPant HP_Measurement) {
+		this.HMeasurement = HP_Measurement;
+	}
+	public void setFSMeasurement(FullShirt FS_Measurement ) {
+		this.FMeasurement = FS_Measurement;
+	}
+	public void setHSMeasurement(HalfShirt HS_Measurement) {
+		this.HSMeasurement = HS_Measurement; 
+	}
+}

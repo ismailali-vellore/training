@@ -1,0 +1,176 @@
+package com.project.tailor;
+
+import com.project.tailor.customer.Customer;
+import com.project.tailor.customer.CustomerAddress;
+import com.project.tailor.customer.DeliveryAddress;
+import com.project.tailor.measurement.FullPant;
+import com.project.tailor.measurement. HalfPant;
+import com.project.tailor.measurement.FullShirt;
+import com.project.tailor.measurement.HalfShirt;
+public class App {
+	public static void main (String[] args) {
+
+ 
+			Customer c1 = new Customer();
+			c1.setName("Syed Nadeem");
+			c1.setgender("male");
+			c1.setpublicAge(19);
+			CustomerAddress a1  = new CustomerAddress(281,"Rowza Street","Konavattam","Vellore",632013);
+			c1.setCaddress(a1);
+			DeliveryAddress d1 = new DeliveryAddress(281,"Bareline Street","saidapet","vellore",632011);
+			c1.setDaddress(d1);
+			c1.setpublicCno(759889542);
+			
+			c1.getName();
+			c1.getGender();
+			c1.getage();
+			c1.getC_Address().print();
+			c1.getD_Address().print();
+			c1.getContactNo();
+			
+			System.out.println("______________________________________________________________________");
+			
+			FullPant F1 = new FullPant () ;
+ 			F1.setPanttype("track");
+ 			FullPant FP1 = new FullPant(26,(float)4.1,3,((float)3.0),1);
+ 			F1.setLoop(true);
+ 			F1.setZib(true);
+ 			
+ 			F1.Backpocket(true);
+ 			
+ 			F1.getPanttype();
+ 			F1.getWaist();
+ 			F1.getRise();
+ 			F1.getThigh();
+ 			F1.getFoot();
+ 			F1.getInsideleg();
+ 			F1.getLoop();
+ 			F1.getZib();
+ 			F1.getPocket();
+ 			F1.Backpocket(true);
+ 			
+ 			System.out.println("______________________________________________________________________");
+			
+ 			HalfPant H1 = new HalfPant ();
+ 			
+ 			H1.setWaist(28);
+ 			H1.setRise((float) 4.0);
+ 			H1.setThigh(3);
+ 			H1.setCuff(2);
+ 			H1.setLoop(true);
+ 			H1.setZib(true);
+ 			H1.setpocket(1);
+ 			
+ 			
+ 			H1.getWaist();
+ 			H1.getRise();
+ 			H1.getThigh();
+ 			H1.getCuff();
+ 			H1.getLoop();
+ 			H1.getZib();
+ 			H1.getPocket();
+ 			 
+ 			
+ 			
+ 			System.out.println("_____________________________________________________________________");
+ 			
+ 			
+ 			
+ 			FullShirt FS1= new FullShirt() ;
+ 			
+ 			FS1.setFLen(28);
+ 			FS1.setCWid(6);
+ 			FS1.setSWid((float)6.6);
+ 			FS1.setFSlen(25);
+ 			FS1.setCo(true);
+ 			FS1.setco((float)4.5);
+ 			FS1.setcan(true);
+ 			FS1.setpoc(6);
+ 			FS1.setIpoc(false);
+ 			FS1.setHcuff(7);
+ 			
+ 			
+ 			
+ 			
+ 			FS1.getFlen();
+ 			FS1.getCwid();
+ 			FS1.getSwid();
+ 			FS1.getFSlen();
+ 			FS1.getCo();
+ 			FS1.getco();
+ 			FS1.getcan();
+ 			FS1.getpoc();
+ 			FS1.getIpoc();
+ 			FS1.getHcuff();
+ 			
+ 			System.out.println("_____________________________________________________________________");
+ 			
+ 			
+ 			
+ 			
+ 			HalfShirt HS1= new HalfShirt() ;
+ 			
+ 			HS1.setFLen(28);
+ 			HS1.setCWid(6);
+ 			HS1.setSWid((float)6.6);
+ 			HS1.setCo(true);
+ 			HS1.setco((float)4.5);
+ 			HS1.setcan(true);
+ 			HS1.setpoc(6);
+ 			HS1.setIpoc(false);
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			HS1.getFlen();
+ 			HS1.getCwid();
+ 			HS1.getSwid();
+ 			HS1.getCo();
+ 			HS1.getco();
+ 			HS1.getcan();
+ 			HS1.getpoc();
+ 			HS1.getIpoc(); 			
+ 			
+ 			System.out.println("_____________________________________________________________________");
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			
+ 				
+		}
+		
+	
+		
+		//Create A New Customer with 1-Shirt
+		
+		
+		
+		//Create A New Customer with 2-Shirt
+		
+		
+		
+		//Create A New Customer with 2-Shirt, 1-Pant
+		
+		
+		
+		//Create A New Customer with 2 different shirt size, 1-pant
+		
+		
+		
+		//Add an additional shirt to existing Customer
+		
+		
+		//New Customer has different Address than Delivery Address
+		
+		
+		// Existing Customer wants to deliver to different address
+		
+
+		
+	}
+
+
